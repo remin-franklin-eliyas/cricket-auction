@@ -1,0 +1,135 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  background: #030712;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.trophy {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #f9fafb;
+  letter-spacing: -0.5px;
+}
+
+.sub {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+  max-width: 420px;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  background: #1f2937;
+  border-color: #f59e0b;
+  transform: translateY(-2px);
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f9fafb;
+}
+
+.cardSub {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.pinBox {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 280px;
+}
+
+.pinLabel {
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+
+.pinInput {
+  background: #030712;
+  border: 1px solid #374151;
+  border-radius: 10px;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 6px;
+  color: #f9fafb;
+  width: 100%;
+}
+
+.pinInput:focus {
+  outline: none;
+  border-color: #f59e0b;
+}
+
+.pinError {
+  color: #ef4444;
+  font-size: 0.8rem;
+}
+
+.pinBtns {
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.backBtn {
+  flex: 1;
+  background: #1f2937;
+  color: #9ca3af;
+  border-radius: 10px;
+  padding: 0.7rem;
+}
+
+.confirmBtn {
+  flex: 1;
+  background: #f59e0b;
+  color: #000;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.7rem;
+}
